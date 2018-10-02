@@ -5,6 +5,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20180911Hello", "20180911He
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20180911hello2", "20180911hello2\20180911hello2.vcxproj", "{DBC3DD4E-C526-4E00-8383-E1C064061C78}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20181002variable", "20181002variable\20181002variable.vcxproj", "{E6A83F4B-D157-4508-A710-BD3FF378859C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20181002변수두번째", "20181002변수두번째\20181002변수두번째.vcxproj", "{4416B629-6FF5-479D-AB94-BE9EA6FB78B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -19,6 +23,14 @@ Global
 		{DBC3DD4E-C526-4E00-8383-E1C064061C78}.Debug|Win32.Build.0 = Debug|Win32
 		{DBC3DD4E-C526-4E00-8383-E1C064061C78}.Release|Win32.ActiveCfg = Release|Win32
 		{DBC3DD4E-C526-4E00-8383-E1C064061C78}.Release|Win32.Build.0 = Release|Win32
+		{E6A83F4B-D157-4508-A710-BD3FF378859C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E6A83F4B-D157-4508-A710-BD3FF378859C}.Debug|Win32.Build.0 = Debug|Win32
+		{E6A83F4B-D157-4508-A710-BD3FF378859C}.Release|Win32.ActiveCfg = Release|Win32
+		{E6A83F4B-D157-4508-A710-BD3FF378859C}.Release|Win32.Build.0 = Release|Win32
+		{4416B629-6FF5-479D-AB94-BE9EA6FB78B7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4416B629-6FF5-479D-AB94-BE9EA6FB78B7}.Debug|Win32.Build.0 = Debug|Win32
+		{4416B629-6FF5-479D-AB94-BE9EA6FB78B7}.Release|Win32.ActiveCfg = Release|Win32
+		{4416B629-6FF5-479D-AB94-BE9EA6FB78B7}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
