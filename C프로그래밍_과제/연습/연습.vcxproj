@@ -11,10 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{A991FE52-A194-4E94-8035-4931E6094CD2}</ProjectGuid>
+    <ProjectGuid>{731BAE6D-250B-40AE-81D2-1A0F840224A1}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>C프로그래밍_과제</RootNamespace>
-    <ProjectName>HW1</ProjectName>
+    <RootNamespace>연습</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -77,7 +76,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="C과제.cpp" />
+    <ClCompile Include="연습.cpp" />
+    <ClCompile Include="연습2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

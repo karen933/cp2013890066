@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 2012 for Windows Desktop
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C프로그래밍_과제", "C프로그래밍_과제\C프로그래밍_과제.vcxproj", "{A991FE52-A194-4E94-8035-4931E6094CD2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HW1", "C프로그래밍_과제\C프로그래밍_과제.vcxproj", "{A991FE52-A194-4E94-8035-4931E6094CD2}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HW2", "HW2\HW2.vcxproj", "{2CB539DC-4F3D-4945-B099-A4CEB89C3BAE}"
 EndProject

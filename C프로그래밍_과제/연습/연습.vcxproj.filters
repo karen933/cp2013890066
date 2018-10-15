@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HW5_case문.cpp">
+    <ClCompile Include="연습.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="연습2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

@@ -10,7 +10,7 @@
 
 	--------------
 	Your choice is ¡°orange¡±. */
-int main(void)
+/*int main(void)
 { 
 	char array[50];
 
@@ -25,4 +25,32 @@ int main(void)
 
 
 	 return 0;
+}*/
+int main(void)
+{
+	char apple, orange, banana, peach;
+	1==apple;
+	2==orange;
+	3==banana;
+	4=peach;
+
+	printf(" choose one of the following. \n");
+	printf("apple\n");
+	printf("orange\n");
+	printf("banana\n");
+	printf("peach\n\n");
+	printf("enter your choice here :");
+
+	scanf("%s", &);
+
+	if(num==1)
+		printf("apple");
+	else if (num ==2)
+		printf("orange");
+	else if (num ==3)
+		printf("banana");
+	else
+		printf("peach");
+
+	return 0;
 }
