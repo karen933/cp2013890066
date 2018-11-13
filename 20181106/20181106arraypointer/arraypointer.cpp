@@ -16,7 +16,7 @@ void printArray(int arr[], int len)
 		ptr=a; //ptr = &a[0];
 		printf("a[0]=%d\n",*ptr ); //=a[0]
 		printf("a[0]=%d\n",a[0] );
-		printf("a[0]=%d\n",ptr[0] ); // 포인터변수 이름을 배열 이름으로 사용할 수 있다. 서로 호환이 됨
+		printf("a[0]=%d\n",ptr[0] ); // 포인터변수 이름을 배열 이름으로 사용할 수 있다. 서로 호환이 됨 
 		printf("a[1]=%d\n",ptr[1] );
 
 		//printArray(a,3);

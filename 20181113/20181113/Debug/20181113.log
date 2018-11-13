@@ -1,0 +1,13 @@
+﻿빌드 시작: 2018-11-13 오후 5:29:47
+     1>2 노드의 "C:\Users\정영\Desktop\C 프로그래밍\2013890066정영\20181113\20181113\20181113.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "selection sort.cpp"
+         selection sort.cpp
+     1>c:\users\정영\desktop\c 프로그래밍\2013890066정영\20181113\20181113\selection sort.cpp(66): error C2601: 'main' : 지역 함수 정의가 잘못되었습니다.
+                 c:\users\정영\desktop\c 프로그래밍\2013890066정영\20181113\20181113\selection sort.cpp(58): 이 줄에 짝이 되지 않는 '{'가 들어 있습니다.
+     1>c:\users\정영\desktop\c 프로그래밍\2013890066정영\20181113\20181113\selection sort.cpp(74): fatal error C1075: 왼쪽 중괄호 '{'(위치: 'c:\users\정영\desktop\c 프로그래밍\2013890066정영\20181113\20181113\selection sort.cpp(58)')이(가) 짝이 되기 전에 파일의 끝이 나타났습니다.
+     1>"C:\Users\정영\Desktop\C 프로그래밍\2013890066정영\20181113\20181113\20181113.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:00.20
