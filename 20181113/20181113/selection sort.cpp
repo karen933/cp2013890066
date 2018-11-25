@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// 인터넷에 있는 방법
 /*void selectionSort(int *list, const int n)
 {
 	int i, j, indexMin, temp;
@@ -19,6 +19,7 @@
 		list[i] = temp;
 	}
 }*/
+
 //반복문
 void printArray(int* arr , int len){}
 //함수 findMinIndex()
@@ -47,27 +48,43 @@ void printArray(int* arr , int len){}
  //입력: 배열
  //출력:없음
  //부수효과: 배열이 정렬됨
- void selctionSort(int*arr, int length){
 
-	
+#define SWAP(a,b) {int temp; temp=a; a=b; b=temp;}
+
+ void selectionSort(int* arr, int length)
+ {
+	 int min;
+	 for(int i=0; i<length-1; i++)
+	 {
+		 min = i;
+		 for(int j=i+1; j<length; j++)
+		 {
+			 if(arr[j]<arr[min])
+				 min = j;
+			 SWAP(arr[i], arr[min);
+		 }
+	 }
  }
 
  //함수: findMin()
  //입력:배열(배열이름, 배열길이)
  //출력: 배열최소값
-int findMin(int*arr, int length){
-	int min=arr[0];
-	for(int count=1;count<length;count++){
-		if(min>arr[count])
-		   min=arr[count];
-	return min;
-	}
+ int findMin(int*arr, int length)
+ {
+	 int min=arr[0];
+	 for(int count=1;count<length;count++)
+	 {
+		 if(min>arr[count])
+			 min=arr[count];
+	 }
+	 return min;
+ }
 
 int main(){
 	int a[5]={30,35,27,15,40};
-	printf("minimum value of the array is $d\n",findMin(a,5));
-	printf("the index of minimum value is $d\n",findMinIndex(a,5));
-	swapElemnets(a,0,3);
+	printf("minimum value of the array is %d\n",findMin(a,5));
+	printf("the index of minimum value is %d\n",findMinIndex(a,5));
+	swapElements(a,0,3);
 	printArray(a,5);
 	return 0;
 }
