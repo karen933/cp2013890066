@@ -1,13 +1,11 @@
 #include<stdio.h>
 #include <string.h>
-void printArray(char*arr, int len)
-{
+void printArray(char*arr, int len){
 	for(int i=0;i<len;i++)
 	{
 		printf("array[%d]=%c\n",i,arr[i]);
 	}
 }
-
 int main()
 {
 	char c; //character(¹®ÀÚ)Çü
@@ -31,7 +29,6 @@ int main()
 
 	strcpy(str1,str2);
 	printf("%s \n",str1);
-
 
 	return 0;
 }

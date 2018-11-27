@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20181127", "20181127\20181127.vcxproj", "{69558D9A-0D85-43F1-889D-C9E72AC59FC0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "구조체포인터변수", "구조체포인터변수\구조체포인터변수.vcxproj", "{F72A172E-92D6-47C8-8D05-CEA8F1E7B010}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69558D9A-0D85-43F1-889D-C9E72AC59FC0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{69558D9A-0D85-43F1-889D-C9E72AC59FC0}.Debug|Win32.Build.0 = Debug|Win32
+		{69558D9A-0D85-43F1-889D-C9E72AC59FC0}.Release|Win32.ActiveCfg = Release|Win32
+		{69558D9A-0D85-43F1-889D-C9E72AC59FC0}.Release|Win32.Build.0 = Release|Win32
+		{F72A172E-92D6-47C8-8D05-CEA8F1E7B010}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F72A172E-92D6-47C8-8D05-CEA8F1E7B010}.Debug|Win32.Build.0 = Debug|Win32
+		{F72A172E-92D6-47C8-8D05-CEA8F1E7B010}.Release|Win32.ActiveCfg = Release|Win32
+		{F72A172E-92D6-47C8-8D05-CEA8F1E7B010}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
