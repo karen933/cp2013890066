@@ -8,16 +8,13 @@
 void printNumber(int a, int b){
 	int count =a;
 	while (count<=b)
-
-		printf("%d\n",count++);
+	printf("%d\n",count++);
 }
-int main(){
-
+int main()
+{
 	int a=3, b=50;
-
-	//printNumber(a,b);
-	printNumber(-20,100);
-
+	printNumber(a,b);
+	//printNumber(-20,100);
 	printf("END\n");
 
 	return 0;

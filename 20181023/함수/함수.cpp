@@ -23,15 +23,12 @@ void goodPrint(){
 		printf("good\n");
 }
 
-
-
-int main(void)
+int main()
 {
 	int x=10,y=20,z;
 	z=sum(x,y); //함수호출
 	printf("z=%d\n",z);
-	 goodPrint();
-		
-
+	goodPrint();
+	
 	return 0;
 }

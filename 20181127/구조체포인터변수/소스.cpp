@@ -53,26 +53,32 @@ Complex* returnConjugate(Complex*ptr)
 
  int main()
  {
-	 myintType count=10; //==>int count =0;
+	 myintType count=10; //==>int count =10;
 
 	 //구조체 변수선언
 	Complex a,b;//struct complex a; //구조체 변수선언
 	//구조체 포인터 변수 선언
 	//대부분 구조체는 포인터 변수를 사용하여 접근한다.
 	Complex*ptr;
+	ptr=&a;
+
 	a.real=10;//구조체변수의 멤버변수 접근방법 ==> 구조체변수이름.멤버변수이름
 	a.imag=20;
 	printComplex(&a);
-	ptr=returnConjugate(&a); printComplex(ptr); //구조체 포인터를 반환
-	//conjugate(&a); printComplex(&a);
-
+	
+	conjugate(&a); 
+	printComplex(&a);
 
 	
-	ptr=&a;
 	ptr->real=100; //구조체 포인터 변수의 멤버변수 접근방법==> 구조체변수이름->멤버변수이름
 	ptr->imag=200;
 	printComplex(ptr); //&a
 
+	//b=returnConjugate(&a); printComplex(&b);
+	ptr=returnConjugate(&a); 
+	printComplex(&b); //구조체 포인터를 반환
+	//convertToConjugate(&a); printComplex(&a);
+	
 	return 0;
 }
 

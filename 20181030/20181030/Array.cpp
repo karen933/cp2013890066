@@ -6,7 +6,8 @@
 //부수효과: 화면에 모든 요소를 출력
 void printArray(int arr[], int length){ //(배열이름[],배열길이)
 	int count = 0;
-	while(count<length){
+	while(count<length)
+	{
 		printf("a[%d] = %d\n", count, arr[count]);
 		count++;
 	}
