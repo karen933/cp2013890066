@@ -54,3 +54,16 @@ int main()
 	return 0;
 }
 
+double averageLL(Node *ptr)
+{
+	int sum = 0, count=0;
+	double average;
+	while(ptr!=NULL)
+	{
+		sum += ptr->score;
+		count++;
+		//printf("score=%d\n",ptr->score);
+		ptr= ptr->pNext;
+	}
+	average=(double) sum/count;
+}
